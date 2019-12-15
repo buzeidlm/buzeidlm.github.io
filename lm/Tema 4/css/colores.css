@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: yellow;
+}
+
+body{
+    margin: 10px;
+    background: gray;
+    padding: 10px;
+    max-width: 40%;
+}
+
+.header h1{
+    background: black;
+    color: #e17055;
+}
+
+.seccion p , .footer , .footer a{
+    background: green ;
+    color: #f0932b;
+}
