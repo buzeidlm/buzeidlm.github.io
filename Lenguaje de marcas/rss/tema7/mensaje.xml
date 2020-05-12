@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mensaje xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="mensaje.xsd">
+<origen>
+<nombre>AnaSanzTin</nombre>
+<ciudad>Pamplona</ciudad>
+</origen>
+<destino>
+<nombre>IkerRubioMol</nombre>
+<ciudad>Sevilla</ciudad>
+</destino>
+<asunto>¡Vuelvepronto!</asunto>
+</mensaje>

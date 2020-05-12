@@ -1,0 +1,61 @@
+main{
+	
+	background-color:grey
+}
+header{
+	background-color:blue;
+}
+section{
+	background-color:yellow;
+}
+
+aside{
+	background-color:green;
+}
+footer{
+	background-color:grey;
+}
+
+.content{
+	flex:1;
+	background:orange;
+}
+
+.sidebar{
+	flex:0 1 320px;
+	border: 1px solid #000000;
+	background:red;
+}
+
+
+main,header,section,aside,footer{
+margin:0;
+border:10px;
+padding:10px;
+border-color:black;
+
+
+}
+@media (min-width:640px){
+	.flex-container{display:flex;
+	}
+}
+
+.wrapper{
+	margin:auto;
+	max-width:75rem;
+}
+
+/* <div class="flex-container">
+	    <ul>
+		<li><a href="#">Inicio</a></li>
+		<li><a href="#">Ejercicio1</a></li> 
+		<li><a href="#">Ejercicio2</a></li> 
+		<li><a href="#">Ejercicio3</a></li>
+		<li><a href="#">Ejercicio4</a></li>
+		<li id="bus"><input type="search" name="q" placeholder="Término a buscar" autofocus required>
+		<input type="submit"> </li>
+		</div>
+		<nav>
+		</nav>	
+		</div> */

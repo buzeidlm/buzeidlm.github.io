@@ -1,0 +1,65 @@
+.selector-for-some-widget {
+
+	box-sizing: content-box;
+	
+  }
+
+
+.animated{
+	animation-duration: 1s;
+	animation-delay: 1s;
+	animation-iteration-count: initial;
+	
+  }
+
+body{
+		background: black;
+		font-size: 20px;	
+}
+
+
+img{
+		width:400px;
+		height:200px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	
+} 
+
+  
+ 	
+
+
+.nav-bar ul {
+		list-style-type: none;
+		margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: #e6e9e9;
+	}
+
+.nav-bar ul li {
+	    float: left;
+	}
+
+.nav-bar ul li a {
+	   display:flex;
+	   color: black; 
+	   text-align: center;
+	   padding: 14px 16px;
+	   text-decoration: none;
+	   transition: all 0.3s ease;	
+	}
+
+.nav-bar ul li a:hover {
+	   background-color: #922B21;
+	   padding: 20px;
+	}
+
+
+
+footer p{
+		color:white;
+		margin: 10px;
+    }

@@ -1,0 +1,17 @@
+body{
+	width:500px;
+	margin:0px;
+}
+p{
+	background-color: yellow;
+	border:3px;
+	border: solid;
+	border:blue;
+	margin:10px;
+}
+span{
+	background-color:red;
+	border:1px;
+	border:solid;
+	border:black;
+}

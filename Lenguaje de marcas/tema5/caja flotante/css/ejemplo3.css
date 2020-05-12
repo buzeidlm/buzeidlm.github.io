@@ -1,0 +1,10 @@
+ .float
+   {
+	 top:30px;
+	 left:30px; 
+	 float: right;
+	 padding:30px;
+	 margin:30px;
+	 background:green;
+	 background-color: red;
+ }

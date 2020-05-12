@@ -1,0 +1,19 @@
+.container {
+	display:flex;
+}
+.container > div {
+	font-size:2vw;
+	padding: 5em;
+	color: white;
+}
+.red {
+	flex-grow: 4;
+	background-color:red;
+}
+.green {
+	background-color:green;
+	flex-grow: ;
+}
+.blue {
+	background-color:blue;
+}

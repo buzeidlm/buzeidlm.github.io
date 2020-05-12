@@ -1,0 +1,14 @@
+ nav ul {
+	 margin:30px;
+	 display: flex;
+	 justify-content: space-between;
+	 border: 20px;
+	
+ }
+ li{ 
+	 border-style: solid;
+	 list-style:none;
+	 pointer-events: none;
+	 }
+	 
+	

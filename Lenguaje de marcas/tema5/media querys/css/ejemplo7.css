@@ -1,0 +1,19 @@
+body {
+	 margin:0px;
+	 padding:0px;
+	 background-color:grey;
+ }
+   @media (max-width:1024px) {
+	 body {
+		 background-color:blue;
+	 }
+	 
+ }
+ 
+ @media (max-width:800px) {
+	 body {
+		 background-color:red;
+	 }
+ }
+
+ 

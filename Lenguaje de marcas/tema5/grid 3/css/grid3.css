@@ -1,0 +1,43 @@
+body{
+	display: grid;
+	grid-template-areas:
+	" nav header header"
+	"nav article article"
+	"nav ads ads"
+	"nav footer footer";
+	grid-template-rows: 50px 1fr 100px;
+	grid-template-columns: 10% 1fr 15%;
+	grid-gap:5px;
+	height:100vh;
+	margin:0;
+}
+header, footer, article,nav,aside {
+	padding:15px;
+	background: green;
+}
+
+#header{
+	grid-area:header;
+	margin:3px;
+	background: green;
+}
+#footer{
+	grid-area:footer;
+	margin:3px;
+	background: green;
+}
+#article{
+	grid-area:article;
+	margin:3px;
+	background:green;
+}
+#ads{
+	grid-area:ads;
+	margin:3px;
+	background:green;
+}
+#nav{
+	grid-area:nav;
+	margin:3px;
+	background:green;
+}
