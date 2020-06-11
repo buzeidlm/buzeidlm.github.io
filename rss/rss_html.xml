@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://antoniojavieriesateguaa.github.io/lm/rss/rss.css" ?>
+<rss>
+<channel>
+<title>Buzeid Bazeid. Ejercicios HTML</title>
+<link>https://buzeidlm.github.io/</link>
+<description>Mi página web</description>
+<item>
+<title>EJERCICIO 1.HTML</title>
+<link>https://buzeidlm.github.io/Lenguaje%20de%20marcas/tema5/posicionamiento%20sticky/ejemplo2.html</link>
+<description>Tabla de horario escolar creada con HTML</description>
+</item>
+</channel>
+</rss>

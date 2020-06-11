@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://antoniojavieriesateguaa.github.io/lm/rss/rss.css" ?>
+<rss>
+<channel>
+<title>Buzeid Bazeid. Ejercicios XML</title>
+<link>https://buzeidlm.github.io/</link>
+<description>Mi página web</description>
+<item>
+   <title>EJERCICIO 1.XML</title>
+  <link>https://buzeidlm.github.io/Lenguaje%20de%20marcas/tema7/mensaje.xml</link>
+<description>Deportistas</description>
+  
+ 
+</item>
+</channel>
+</rss>
