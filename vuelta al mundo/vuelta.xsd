@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="vuelta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="etapa" minOccurs="0" maxOccurs="unbounded" >
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="nombre"/>
+              <xs:element type="xs:string" name="fecha_inicio"/>
+              <xs:element type="xs:string" name="fecha_fin"/>
+              <xs:element type="xs:string" name="duracion"/>
+              <xs:element type="xs:string" name="medios_de_transporte"/>
+              <xs:element type="xs:string" name="anecdotas"/>
+              <xs:element type="xs:string" name="foto"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

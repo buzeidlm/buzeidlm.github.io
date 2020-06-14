@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="vuelta.xsl"?>
+<!DOCTYPE vuelta [
+<!ELEMENT vuelta (etapa)+>
+<!ELEMENT etapa (nombre,fecha_inicio,fecha_fin,duracion,medios_de_transporte,anecdotas,foto)>
+<!ATTLIST etapa id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha_inicio (#PCDATA)>
+<!ELEMENT fecha_fin (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT medios_de_transporte (#PCDATA)>
+<!ELEMENT anecdotas (#PCDATA)>
+<!ELEMENT foto ANY>
+
+]>
+
+<vuelta>
+  
+	      <etapa id="primera">   
+		       <nombre>inicio por cordoba</nombre>
+          <fecha_inicio>  12-02-2020  </fecha_inicio>
+          <fecha_fin> 16-02-2020</fecha_fin>
+			     <duracion>cuatro dias</duracion>
+
+			     <medios_de_transporte>bicicleta</medios_de_transporte>
+			     <anecdotas>La idea era descubrir nuevo lugares de la provincia de Córdoba, pero casi me pierdo por Montilla, por 
+            la noche con la oscuridad, y la bici no tenía luces</anecdotas>
+			     <foto>images/bici.jpg</foto>
+        </etapa>
+
+	      <etapa id="segunda" >
+	      <nombre>Semana por el norte de África</nombre>
+          <fecha_inicio>  17-02-2020 </fecha_inicio>
+          <fecha_fin> 24-02-2020</fecha_fin>
+			     <duracion>Una semana</duracion>
+			     <medios_de_transporte>coche</medios_de_transporte>
+			     <anecdotas>Fue la primera vez que voy a África y encotré un leon que casi me come</anecdotas>
+			     <foto>images/africa.jpg</foto>
+        </etapa>
+
+	      <etapa id="tercera" >
+	      <nombre>Mi llegada a china</nombre>
+          <fecha_inicio>   29-02-2020 </fecha_inicio>
+          <fecha_fin>  4-03-2020</fecha_fin>
+			     <duracion>Cinco dias</duracion>
+			     <medios_de_transporte>Moto</medios_de_transporte>
+			     <anecdotas>Fue mi primera visita a China, asi que aproveché el momento para visitar al muro más largo del mundo.
+			     Dos dias depues tuve que salir del pais por la porpagacion del Covid-19 en Wuhan</anecdotas>
+			     <foto>images/china.jpg</foto>
+        </etapa>
+
+	      <etapa id="cuarta" >
+	      <nombre>Vuelta a Europa</nombre>
+          <fecha_inicio>   05-03-2020 </fecha_inicio>
+          <fecha_fin>  09-03-2020</fecha_fin>
+			     <duracion>cuatro dias</duracion>
+			     <medios_de_transporte>barco</medios_de_transporte>
+			     <anecdotas>Mi vuelta a Europa fue por la puerta de Amsterdan, he estado allí cuatro dias antes de regresar a España</anecdotas>
+			     <foto>images/europa.jpg</foto>
+        </etapa>
+
+</vuelta>
+
